@@ -49,7 +49,8 @@ function editEntry(id) {
   document.getElementById('date').value = entry.date;
   document.getElementById('hours').value = entry.hours;
 
-  deleteEntry(id); // Remove the old one to replace on submit
+  deleteEntry(id); 
 }
 
 renderTable();
+
